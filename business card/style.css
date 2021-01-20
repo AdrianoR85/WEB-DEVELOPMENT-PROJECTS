@@ -1,0 +1,59 @@
+body{
+	background: black;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+#visit_card{
+	background-image: url(assents/backgorund.png);
+	background-size: cover; /* poderia ter utilizado o contain aqui? */
+	background-repeat: no-repeat;
+
+	width: 400px;
+	height: 200px;	
+	margin: auto;
+	margin-top: 50px;
+	padding-left: 20px;	 	
+}
+
+.my_name{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 40px;
+
+	width: 200px;
+	margin: 0; /* diminui a margin do my_name para que a lista não ficasse muito perto da parte inferior da imagem */
+	padding: 5px;
+
+	text-shadow: 2px 2px 2px grey;
+}
+
+ul{
+	font-family: Verdana, Calibri e Arial;
+	line-height: 35px; /* Aumentei os espaços entre as linhas porque achei que estavam muito próximas */
+}
+
+li:hover{
+	text-shadow: 2px 2px 2px grey;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/* Locoque as imagens dos icones por css, pois achei que se eu colocá-se no html ficaria mais desorganizado.
+Gostaria da opinião de vocês, pois acho que eu fico devendo ainda na parte de organização*/
+.insta{
+	list-style-image: url(assents/instagram.png);
+}
+
+.linkedin{
+	list-style-image: url(assents/linkedin.png);
+}
+
+.twitter{
+	list-style-image: url(assents/twitter.png);
+}
+
+
